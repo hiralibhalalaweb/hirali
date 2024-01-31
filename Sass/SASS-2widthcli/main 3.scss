@@ -1,0 +1,80 @@
+$bg-1: red;
+$bg-2: green;
+$bg-3: rgb(220, 46, 75);
+$bg-4: orange;
+$bg-5: blue;
+$bg-6: purple;
+
+$border-1: red;
+$border-2: green;
+$border-3: rgb(227, 29, 62);
+$border-4: orange;
+
+$h-1: 100px;
+$h-2: 200px;
+
+$w-1: 100px;
+$w-2: 200px;
+
+$m-1: 15px;
+$m-2: 20px;
+$m-3: 25px;
+$m-4: 30px;
+$m-5: 35px;
+
+/* @each and in method */
+@each $a in maincontent, box-1, box-2, box-3, box-4 {
+  .#{$a} {
+    border: 5px solid rgb(229, 45, 76);
+    height: $h-1;
+    width: $w-1;
+    background-color: $bg-5;
+    margin: $m-2;
+  }
+}
+
+/* @each with simple list */
+
+$list: (
+  maindiv,
+  box-5,
+  box-6,
+  box-7,
+  box-8
+);
+
+@each $a in $list {
+  .#{$a} {
+    border: 5px solid green;
+    margin: $m-5;
+    background-color: $bg-3;
+  }
+}
+
+/*Multiple assignement*/
+$list : ((main,orange, 100px, 10px), (para, purple, 200px, 20px), (box, red, 100px, 10px));
+
+@each $name , $color , $size , $position in $list {
+  .#{$name} {
+    border: $color;
+    height: $h-1;
+    left: $position;
+  }
+}
+
+
+@each $a in main box box-1 box-2 box-3 {
+  .#{$a} {
+    border: 2px solid green;
+  }
+}
+
+.box-5 {
+  border: 1px solid purple;
+
+
+  &:hover {
+    border: 1px solid rgb(215, 28, 59);
+
+  }
+}

@@ -1,0 +1,19 @@
+/* sass nesting */
+nav {
+  justify-content: space-between;
+  display: flex;
+  background-color: green;
+}
+ul {
+  margin: 20px;
+  list-style-type: none;
+}
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* mixin *//*# sourceMappingURL=main2.css.map */

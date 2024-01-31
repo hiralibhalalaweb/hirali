@@ -1,0 +1,128 @@
+.container {
+  width: 1000px;
+  height: 420px;
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-1 {
+  height: 350px;
+  width: 300px;
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.icon-1 {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.text-1 {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+}
+
+p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px;
+  border-radius: 50px;
+}
+
+.box-2 {
+  height: 350px;
+  width: 300px;
+  background-color: rgb(241, 35, 69);
+  margin: 20px;
+  padding: 20px;
+}
+
+.icon-2 {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  color: white;
+}
+
+.text-2 {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  color: white;
+}
+
+.para-2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.button-1 {
+  width: 300px;
+  padding: 10px;
+  color: rgb(241, 67, 96);
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 50px;
+  border: none;
+}
+
+.box-3 {
+  height: 350px;
+  width: 300px;
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.icon-3 {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.text-3 {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+}
+
+.para-3 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.button {
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}/*# sourceMappingURL=main.css.map */

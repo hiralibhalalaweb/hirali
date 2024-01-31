@@ -1,0 +1,93 @@
+$bg-1:green;
+$bg-2:pink;
+$bg-3:orange;
+$bg-4:red;
+$bg-5:yellow;
+$bg-6:purple;
+
+$h-1:100px;
+$h-2:200px;
+$h-3:300px;
+$h-4:400px;
+$h-5:500px;
+
+$w-1:100px;
+$w-2:200px;
+$w-3:300px;
+$w-4:400px;
+$w-5:500px;
+
+$m-1:20px;
+$m-2:30px;
+$m-3:40px;
+$m-4:50px;
+
+$color-1:red;
+
+$flex:flex;
+$j-content:center;
+$j-between:space-between;
+$j-around:space-around;
+$j-evenly:space-evenly;
+
+
+// nav{
+//     display:$flex;
+//     justify-content:$j-between;
+//     margin-right:10px;
+// }
+// nav ul{
+   
+//     display:flex;
+//     justify-content:$j-between;
+//     text-decoration:none;
+//     list-style-type: none;
+     
+// }
+// nav ul li{
+//     display:block;
+//     justify-content:$j-between;
+   
+// }
+// nav ul li a{
+//     display:block;
+//     list-style-type: none;
+//     text-decoration:none;
+//     justify-content:$j-around;
+// }
+
+/* sass nesting */
+
+nav{
+    justify-content:space-between;
+    display:flex;
+    background-color:$bg-1;
+    @at-root
+
+    ul{
+       margin:$m-1;
+       list-style-type:none;
+       @at-root
+
+        li{
+            list-style-type:none;
+            text-decoration:none;
+            @at-root
+            a{
+               text-decoration:none;
+              
+            }
+        }
+    }
+
+}
+/* mixin */
+
+@mixin flexbox{
+    height:$h-1;
+    width:$w-1;
+    background-color:$bg-4;
+    border:1px solid pink;
+
+}
+
