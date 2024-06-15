@@ -1,0 +1,225 @@
+/* responsive website */
+@media (max-width:1699px){
+
+}
+@media (max-width:1549px){
+
+}
+@media (max-width:1400px){
+
+}
+@media (max-width:1200px){
+
+}
+@media (max-width:992px){
+    .container{
+        max-width:960px;
+    }
+    .navbar ul li a{
+        font-size:14px;
+    }
+    .volv{
+        display:flex;
+        flex-direction:column;
+        flex-wrap: nowrap;
+    }
+    .digni .prove{
+        padding:0px 20px;
+    }
+    .digni .lorem{
+        padding:0px 20px;
+    }
+    .about a{
+        margin-left:20px;
+        margin-bottom:30px;
+    }
+    .grid-item-1{
+        height:320px;
+        width:200px;
+        padding:0px 20px;
+    }
+    .image-1 img{
+        height:100%;
+        width:100%;
+    }
+    .grid-container-4{
+        display:grid;
+        grid-template-columns: auto;
+    }
+    .grid-item-4{
+        min-height:320px;
+        text-align: center;
+    }
+    ul li a{
+        font-size:14px;
+    }
+    .grid-container-8{
+        display:grid;
+        grid-template-columns: auto auto;
+    }
+    .form{
+        margin-left:5px;
+    }
+}
+@media (max-width:768px){
+    .container{
+        max-width:720px;
+    }
+    .navbar ul li a{
+        display:none;
+    }
+    .mobile-menu{
+        display:block;
+    }
+    .volv{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap:nowrap;
+    }
+    .about a{
+        margin-bottom:40px;
+    }
+    .grid-item{
+        padding:0px 40px;
+    }
+    .grid-container-1{
+        display:grid;
+        grid-template-columns: auto auto;
+    }
+    .grid-item-1{
+        height:300px;
+        width:300px;
+        padding:30px 20px;
+    }
+    .grid-container-2{
+        display:grid;
+        grid-template-columns: auto auto;
+    }
+    .grid-item-2{
+        padding:20px 40px;
+    }
+    .grid-container-3{
+        display:grid;
+        grid-template-columns: auto auto;
+    }
+    .grid-container-5{
+        display:grid;
+        grid-template-columns: auto auto;
+    }
+    .grid-container-6{
+        display:grid;
+        grid-template-columns: auto;
+    }
+    .grid-container-7{
+        display:grid;
+        grid-template-columns: auto auto;
+    }
+    ul li a{
+        margin-left:20px;
+    }
+    .grid-container-8{
+        display:grid;
+        grid-template-columns: auto;
+    }
+    .mapp{
+        width:100%;
+    }
+    .form{
+        width:100%;
+        margin-left:-10px;
+    }
+}
+@media (max-width:576px){
+    .container{
+        max-width:540px;
+    }
+    .navbar ul li a{
+        display:none;
+    }
+    .mobile-menu{
+        display:block;
+    }
+    .volv{
+        display:flex;
+        flex-direction: column;
+        flex-wrap:nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .about a{
+       margin-left:30px; 
+    }
+    .grid-container{
+        display:grid;
+        grid-template-columns: auto;;
+    }
+    .icon-1{
+       margin-left:60px;
+    }
+    .grid-container-1{
+        display:grid;
+        grid-template-columns: auto;
+    }
+    .grid-item-1{
+        height:300px;
+        width:500px;
+        padding:30px 20px;;
+    }
+    .grid-container-2{
+        display:grid;
+        grid-template-columns: auto;
+    }
+    .grid-item-2{
+        padding:20px 40px;
+    }
+    .grid-container-3{
+        display:grid;
+        grid-template-columns: auto;
+    }
+    .grid-container-5{
+        display:grid;
+        grid-template-columns: auto;
+        margin-bottom:10px;
+    }
+    .form{
+        width:100%;
+        margin-left:-10px;
+    }
+    .grid-container-8{
+        display:grid;
+        grid-template-columns: auto;
+    }
+    .grid-container-7{
+        display:grid;
+        grid-template-columns: auto;
+    }
+    .use{
+        margin-top:20px;
+    }
+}
+@media (max-width:320px){
+    .grid-container-6{
+        display:grid;
+        grid-template-columns: auto;
+    }
+    .infobox{
+        height:100%;
+        width:80%;
+        padding:10px 10px 10px 10px;
+    }
+    .grid-container-8{
+        display:grid;
+        grid-template-columns: auto;
+    }
+    .mapp{
+        width:100%;
+       
+    }
+    .form{
+        width:100%;
+        margin-right:20px;
+        margin-left:-10px;
+    }
+}

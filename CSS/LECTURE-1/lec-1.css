@@ -1,0 +1,279 @@
+/* css position */
+
+
+.static{
+    height:100px;
+    width:100%;
+    background-color: green;
+    position:static;
+    top:100px;
+    margin:auto;
+
+}
+.sticky{
+    position:sticky;
+    background-color: aqua;
+    color:blue;
+    position:sticky;
+    height:100px;
+    width:100px;
+    top:500px;
+    
+}
+.fixed{
+    position:fixed;
+    height:100px;
+    width:100px;
+    background-color: blueviolet;
+    top:100px;
+    margin:auto;
+}
+
+.maindiv{
+    height:1000px;
+    width:1200px;
+    background-color:rgb(224, 106, 125);
+    display:flex;
+    position:relative;
+    border:2px solid black;
+    
+}
+
+.div-1{
+    height:100px;
+    width:100px;
+    background-color: red;
+    position:absolute;
+}
+.div-1:nth-child(1){
+    height:100px;
+    width:100px;
+    background-color: rgb(14, 151, 14);
+    position:absolute;
+    bottom:0;
+    left:0;
+    margin:auto;
+    border:2px solid black;
+
+}
+.div-2:nth-child(2){
+    height:100px;
+    width:100px;
+    background-color: rgb(109, 109, 9);
+    position:absolute;
+    left:0;
+    top:0;
+    margin:auto;
+    border:2px solid black;
+    
+}
+.div-3:nth-child(3){
+    height: 100px;
+    width:100px;
+    background-color: rgb(6, 6, 104);
+    position:absolute;
+    right:0;
+    top:0;
+    margin:auto;
+    border:2px solid black;
+}
+.div-4:nth-child(4){
+    height:100px;
+    width:100px;
+    background-color: rgb(89, 5, 167);
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    margin:auto;
+    border:2px solid black;
+}
+.div-5:nth-child(5){
+    height:100px;
+    width:100px;
+    background-color: rgb(133, 89, 9);
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+     margin:auto;
+     border:2px solid black;
+}
+.div-6:nth-child(6){
+    height:100px;
+    width:100px;
+    background-color: rgb(85, 5, 85);
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    margin:auto;
+    border:2px solid black;
+}
+.div-7:nth-child(7){
+    height:100px;
+    width:100px;
+    background-color: rgb(119, 8, 8);
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    border:2px solid black;
+}
+.div-8:nth-child(8){
+    height:100px;
+    width:100px;
+    background-color: rgb(7, 114, 117);
+    position:absolute;
+    bottom:0;
+    right:0;
+    margin:auto;
+    border:2px solid black;
+   }
+.div-9:nth-child(9){
+    height:100px;
+    width:100px;
+    background-color: rgb(60, 114, 7);
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+    border:2px solid black;
+    
+}
+
+/* CSS Z-INDEX PROPERTIES */
+/*
+.z-index-1{
+    height:100px;
+    width:200px;
+    background-color: green;
+    position:absolute;
+    z-index:-1;
+    border:2px solid black;
+}
+.z-index-2{
+    height:200px;
+    width:250px;
+    background-color: orange;
+    position:absolute;
+    z-index: -2;
+    border:2px solid black;
+}
+.z-index-3{
+    height:300px;
+    width:350px;
+    background-color: blueviolet;
+    position:absolute;
+    z-index:-2;
+    border:2px solid black;
+    
+}
+
+/* CSS FLOAT PROPERTIES */
+/*
+.class-1 image{
+    float: right;
+}
+img  {
+    float: left;
+ }
+
+ /* CSS OVERFLOW PROPERTIES */
+/*
+ .box-12{
+    height:200px;
+    width:200px;
+    background-color: aqua;
+    overflow: scroll;
+    color:blue;
+ }
+ 
+ .box-12{
+    height:200px;
+    width:200px;
+    background-color: brown;
+    color:yellow;
+    overflow: hidden;
+ }
+
+ .box-12{
+    height:300px;
+    width:300px;
+    background-color: blue;
+    color:rgb(226, 226, 117);
+    overflow: visible;
+ }
+
+ 
+ .box-12{
+    height:300px;
+    width:300px;
+    background-color:brown;
+    color:aqua;
+    overflow-x: scroll;
+ }
+ */
+ .box-12{
+    height:300px;
+    width:300px;
+    background-color: blueviolet;
+    color:rgb(129, 129, 206);
+    overflow-y: scroll;
+ }
+
+ /*  CURSER PROPERTIES */
+
+ h1{
+    cursor:pointer;
+    background-color: blue;
+    color:aqua;
+ }
+ p{
+    cursor: cell;
+ }
+
+ /* CSS OBJECTFIT PROPERTIES */
+/*
+ .div-1{
+    height:200px;
+    width:200px;
+    object-fit: fill;
+ }
+ .image{
+    height:200px;
+    width:200px;
+    object-fit: fill;
+ }
+ 
+ .image{
+    height:500px;
+    width:500px;
+    object-fit: contain;
+ }
+ 
+ .image{
+    height:200px;
+    width:200px;
+    object-fit:scale-down;
+ }
+ */
+ .image{
+    height:500px;
+    width:500px;
+    object-fit: cover;
+ }
+
+ 
+
+
+
+ 
+
+ 
+
+
+

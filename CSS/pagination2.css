@@ -1,0 +1,34 @@
+
+  .pagination{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  }
+  .pagination { 
+    background-color: #eee;
+    display: inline-block; 
+     border-radius:20px;
+     font-family: 'Anton', sans-serif;
+ }
+ .pagination a { 
+    font-size:20px; 
+    /* color: #577A7C;  */
+    float: left; 
+    text-align:center;
+    padding:14px  5px;
+    text-decoration: none; 
+    width:80px; 
+    color:black;
+}
+.pagination a:hover:not(.active) { 
+    background-color: red;
+    color:white;
+}
+.pagination a.active { 
+    background-color:#009900; 
+    color:white;
+}
+
+  
+  

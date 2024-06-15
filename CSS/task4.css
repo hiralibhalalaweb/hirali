@@ -1,0 +1,112 @@
+.conatiner{
+    height: 600px;
+
+    background-image: url('../mountain.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.round{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 280px;
+    left:730px;
+    background-color: rgb(206, 172, 18);
+    border: 1px solid rgb(198, 140, 24);
+    border-radius: 100%;
+    animation-name: round;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+   
+}
+@keyframes round{
+    0%{
+        transform: translateY(0px); 
+    }
+    50%{
+        transform: translateY(-400px);
+        background-color: rgb(255, 183, 0);
+        border: 1px solid rgb(211, 155, 43);
+    }
+    100%{
+        transform:translateY(15px) ;
+    }
+}
+.cloud{
+    color:rgb(155, 153, 153);
+    animation-name: move;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes move{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(1000px);
+    }
+}
+
+.cloud-1{
+    color:rgb(153, 149, 149);
+    margin-left: 1000px;
+    animation-name: move-1;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    }
+
+ @keyframes move-1{
+    to{
+        transform: translate(0px);
+    }
+    from{
+        transform: translateX(-1000px);
+    }
+}
+
+.cloud-2{
+    color:rgb(154, 150, 150);
+    margin-left: 1000px;
+    animation-name: move-1;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: 5;
+    }
+
+ @keyframes move-1{
+    to{
+        transform: translate(0px);
+    }
+    from{
+        transform: translateX(-1000px);
+    }
+}
+
+.cloud-3{
+    color:rgb(157, 154, 154);
+    margin-left: 1000px;
+    animation-name: move-1;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: 5;
+    }
+
+ @keyframes move-1{
+    to{
+        transform: translate(0px);
+    }
+    from{
+        transform: translateX(-1000px);
+    }
+}

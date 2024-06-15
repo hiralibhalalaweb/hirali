@@ -1,148 +1,169 @@
-nav {
-  display: flex;
-  text-decoration: none;
-  height: 20px;
-  width: 30px;
-  background-color: white;
+body {
+  margin: 0;
+  background-color: rgb(244, 240, 240);
 }
 
-nav ul {
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(244, 244, 244);
+}
+ul {
   display: flex;
   list-style-type: none;
 }
-
-nav ul li {
-  margin-right: 10px;
-  margin-left: 30px;
+li {
+  margin-right: auto;
 }
-
-nav ul li a {
+a {
   text-decoration: none;
 }
-
 .ticket-img {
   color: white;
-  padding: 15px;
+  padding: 10px;
 }
 
 .img-1 {
   height: 20px;
   padding: 10px;
-  margin-left: 20px;
 }
 
 li {
-  color: black;
-  margin-top: 5px;
+  color: rgb(240, 171, 44);
 }
 
 nav ul li a {
   color: black;
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  margin-top: 5px;
 }
 
 .ticket-img {
-  background-color: rgb(230, 123, 52);
-  height: 20px;
-  width: 30px;
+  background-color: rgb(240, 113, 44);
 }
 
-.ticket-img {
+.ticket-img img {
   height: 20px;
-  width: 30px;
+}
+.bg-img-1 {
   display: flex;
+  height: 200px;
+  background-image: url(../page-title-bg.jpg);
+  justify-content: center;
   align-items: center;
 }
+.img-text {
+  text-align: center;
+  line-height: 10px;
+  color: white;
+}
+.img-text span {
+  font-size: 30px;
+}
+.container {
+  background-color: rgb(244, 240, 240);
+  width: 1000px;
+  margin: auto;
+}
 
-.ticket-img span {
-  color: #fff;
+.sponser {
   display: flex;
-  align-items: center;
-  font-size: 15px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  background-color: rgb(230, 123, 52);
-  padding: 7px;
+  justify-content: center;
+  text-align: center;
+  line-height: 10px;
+  margin: 30px;
 }
 
 .text {
-  position: relative;
-  margin-top: 30px;
-  height: 50px;
+  display: block;
 }
 
-.text img {
-  background-color: rgb(94, 72, 114);
-}
-
-.text h5 {
+.platinum {
   display: flex;
-  position: relative;
-  height: 50px;
-  width: 1300px;
-  font-size: 25px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
   justify-content: center;
-  align-content: start;
-  margin-top: -150px;
-  color: #fff;
+  text-align: center;
+  color: rgb(240, 171, 44);
+  margin: 30px;
+  font-weight: bold;
 }
 
 .text p {
-  display: flex;
-  position: relative;
-  height: 50px;
-  width: 1300px;
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  justify-content: center;
-  align-content: start;
-  margin-top: -110px;
-  color: #fff;
+  opacity: 0.8;
 }
 
-.background {
-  position: relative;
+.images {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
-.background img {
+.image-1 {
+  background-color: white;
   height: 100px;
-  width: 250px;
-  margin-top: 170px;
+  width: 200px;
+}
+
+.images-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img1 {
   display: flex;
   justify-content: center;
+  margin: auto;
+  padding: 20px;
 }
 
-.background p {
-  color: orange;
-  font-size: 25px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500 italic;
-  margin-top: 280px;
-  margin-left: -230px;
+.img-2 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
 }
 
-.background span {
-  color: black;
-  font-size: 25px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500 italic;
-  margin-top: 280px;
-  margin-left: 10px;
+.img-3 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.img-4 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.img-5 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.img-6 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.img-7 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 button {
-  background-color: rgb(240, 90, 25);
-  height: 40px;
-  width: 150px;
-  border: none;
-  color: #fff;
-  margin-left: 500px;
-}/*# sourceMappingURL=screenshot 1.css.map */
+  border: 0;
+  background-color: rgb(240, 113, 44);
+  padding-inline: 20px;
+  padding-block: 10px;
+  color: white;
+}/*# sourceMappingURL=main.css.map */

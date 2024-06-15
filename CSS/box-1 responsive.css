@@ -1,0 +1,12 @@
+@media(max-width:576px){
+    .box-1{
+    background-color:blueviolet; 
+    }
+    
+}
+@media(min-width:768px){
+    .box-1{
+    background-color:orange; 
+    }
+    
+}

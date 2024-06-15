@@ -1,0 +1,235 @@
+/* css clear properties */
+/*
+.class-1{
+    height:200px;
+    width:200px;
+    background-color: green;
+    float:left;
+    clear:right;
+    border:2px solid black;
+}
+.class-2{
+    height:200px;
+    width:200px;
+    background-color: red;
+    float:right;
+    clear:left;
+    border:2px solid black;
+}
+.class-3{
+    height:200px;
+    width:200px;
+    background-color: yellow;
+    float:right;
+    clear:both;
+    border:2px solid black;
+}
+*/
+
+/* CSS TRANSFORM PROPERTIES */
+/*
+.transform{
+    height:200px;
+    width:200px;
+    background-color: orange;
+    transform:perspective(100px , 100px);
+    
+}
+
+.transform{
+    height:300px;
+    width:300px;
+    background-color: blueviolet;
+    transform: scaleY(1);
+}
+.div-1{
+    height:200px;
+    width:200px;
+    background-color: blue;
+    transform:scale(0.5);
+}
+
+.div-2{
+    height:200px;
+    width:200px;
+    background-color: brown;
+    transform:translate(100px , 200px);
+}
+
+.div-3{
+    height:200px;
+    width:200px;
+    background-color: aqua;
+    transform: translate(100px);
+}
+
+.div-4{
+    height:200px;
+    width:200px;
+    background-color: aquamarine;
+    transform: translateY(200PX);
+}
+
+.div-5{
+    height:200px;
+    width:200px;
+    background-color: green;
+    transform:rotate(180deg);
+}
+
+.transition{
+    height:200px;
+    width:200px;
+    background-color: aqua;
+    transform: rotate(45deg);
+    transition: 5s;
+}
+.div-6{
+    width: 200px;
+    height: 200px;
+    background: red;
+    transition-delay: 5s;
+    transform: translate(100px , 100px);
+    
+}
+.div-7{
+    height:200px;
+    width:200px;
+    background-color: blueviolet;
+    transform: rotate(90deg);
+    transition-delay:5s;
+    
+}
+
+.box-1{
+    height:200px;
+    width:200px;
+    background-color: brown;
+
+}
+image{
+    height:200px;
+    width:200px;
+    background-color: aqua;
+    transition:5s;
+    transform:translate(100px , 100px);
+}
+*/
+
+/* CSS ANIMATION PROPERTIES */
+
+.animation{
+    height:200px;
+    width:200px;
+    background-color: blue;
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+@keyframes rotate{
+    from{
+        transform: translate(100px);
+    }
+    to{
+        transform: translate(900px);
+    }
+}
+
+.animation{
+    height:200px;
+    width:200px;
+    background-color:green;
+    animation-name: row;
+    animation-duration:10s;
+    animation-play-state:running;
+}
+@keyframes row{
+    0%{
+        transform:translate(0px);
+    }
+    50%{
+        transform: translate(500px);
+    }
+    100%{
+        transform: translate(1000px);
+    }
+}
+
+.animation{
+    height:200px;
+    width:200px;
+    background-color:aqua;
+    animation-name: look;
+    animation-duration:10s;
+    animation-direction:reverse;
+}
+@keyframes look{
+    from{
+        transform:translate(0px);
+    }
+    to{
+        transform: translate(900px);
+    }
+   
+}
+
+p.class-1{
+    font-size: 1em;
+    color:green;
+    background-color: orange;
+}
+p{
+    color:red;
+    font-size:5mm;
+    background-color: yellow;
+}
+
+
+/* CSS OVERLAY PROPERTIES */
+
+.container img {   
+            width: 500px;   
+            height: 500px;   
+        }   
+        .container {   
+            position: relative;   
+            width: 25%;   
+            height: auto;  
+        }   
+            
+        .overlay{   
+            position: absolute;   
+            transition: 0.5s ease;   
+            height: 500px;   
+            width: 500px;   
+            top: 0;   
+            left: 20px;   
+            background-color: rgb(247, 241, 241); 
+            opacity: 0;  
+        }   
+         .container:hover .overlay {   
+            opacity: 0.9;   
+        }  
+        
+      /* CSS LAYOUT PROPERTIES */
+      
+      .maindiv{
+        height:400px;
+        width:400px;
+        position:absolute;
+      }
+      .maindiv.img{
+        height:500px;
+        width:500px;
+        position:absolute;
+        transition:2s;
+        
+
+      }
+            
+
+
+
+
+
