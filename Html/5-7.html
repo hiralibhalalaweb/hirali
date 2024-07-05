@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border:2px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            width:600px;
+            height:50px;
+        }
+    </style>
+</head>
+<body>
+     <table>
+        <figcaption>this is the table.</figcaption>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>name</th>
+                <th>subject</th>
+                <th>marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1</th>
+                <td>mishti</td>
+                <td>gujarati</td>
+                <td>92</td>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td>mishti</td>
+                <td>gujarati</td>
+                <td>92</td>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td>mishti</td>
+                <td>gujarati</td>
+                <td>92</td>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td>mishti</td>
+                <td>gujarati</td>
+                <td>92</td>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td>mishti</td>
+                <td>gujarati</td>
+                <td>92</td>
+            </tr>
+        </tbody>
+    </table> 
+    <table>
+        <figcaption>this is colspan and rowspan table</figcaption>
+        <thead>
+            <tr>
+                <th rowspan="3">day</th>
+                <th colspan="3">seminar</th>
+            </tr>
+            <tr>
+                <th colspan="2">schedual</th>
+                <th rowspan="2">topic</th>
+            </tr>
+            <tr>
+               <th>begin</th> 
+               <th>end</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">monday</td>
+                <td rowspan="2">8:00a.m.</td>
+                <td rowspan="2">5:00p.m,</td>
+                <td>introduction to xml</td>
+            </tr>
+            <tr>
+                <td>validity:DTD and relaxng</td>
+            </tr>
+            <tr>
+                <td rowspan="3">tuesday</td>
+                <td>8:00a.m.</td>
+                <td>11:00a.m</td>
+                <td rowspan="2">XPATH</td>
+            </tr>
+            <tr>
+                <td>11:00a.m</td>
+                <td>2:00p.m</td>
+            </tr>
+            <tr>
+                <td>2:00p.m</td>
+                <td>5:00p.m</td>
+                <td>XSL transformations</td>
+            </tr>
+            <tr>
+                <td>wednesday</td>
+                <td>8:00a.m</td>
+                <td>12:00p.m</td>
+                <td>XSL formatting objects</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form>
+        <figcaption>personal details</figcaption><br>
+        <label for="name">name:</label>
+        <input type="text" name="name"><br><br>
+        <label for="password:">password:</label>
+        <input type="text" id="password"><br><br>
+        <label for="email id">Email id</label>
+        <input type="text" id="email id"><br><br>
+        <label for="gender">gender</label>
+        <input type="radio" name="gender" id="male" value="male" >
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="female" value="female" >
+        <label for="female">female</label><br><br>
+        <label for="contact#">contact#:</label>
+        <input type="contact#" id="contact#"><br><br> 
+        <label for="degree">degree:</label>
+        <select name="select group"id="--select group--">
+            <option>select this option group</option>
+            <option value="1">aa</option>
+            <option value="2">bb</option>
+            <option value="1">cc</option>
+            <option value="2">dd</option>
+            <option value="1">ee</option>
+            <option value="2">ff</option>
+            </select><br><br>
+            <label for="engineering">engineering</label>
+            <select name="select group"id="--select group--">
+                <option>select this option group</option>
+                <option value="1">aa</option>
+                <option value="2">bb</option>
+                <option value="1">cc</option>
+                <option value="2">dd</option>
+                <option value="1">ee</option>
+                <option value="2">ff</option>
+                </select><br><br>
+            <label for="hobbies">hobbies:</label>
+            <input type="radio" name="playing chess" id="playing chess" value="playing chess">
+            <label for="playing chess">playing chess</label>
+            <input type="radio" name="reading books" id="reading books" value="reading books">
+            <label for="reading books">reading books</label><br><br>
+            <label for="address:">Address:</label>
+            <textarea name="adress"id="address"cols="30"rows="4"></textarea><br><br>
+            <label for="attach resume">attach resume</label>
+            <input type="choose file"id="choose file"value="choose file">
+			<label for="no file chosen">no file chosen</label><br><br>
+            <button class="submit">submit</button>
+    </form>
+</body>
+</html>
