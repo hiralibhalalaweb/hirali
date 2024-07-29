@@ -131,28 +131,6 @@ ul {
     margin-left: -200px;
     color: black;
 }
-/* 
-.mega-menu {
-    float: left;
-    overflow: hidden;
-    margin-top:20px;
-} */
-/* .mega-menu .dropbtn {
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font: inherit;
-    margin: 0;
-    font-family:'Jost',sans-serif;
-    font-weight:600;
-    font-size:18px;
-  } */
-  /* .navbar a:hover, .mega-menu:hover .dropbtn {
-    background: rgba(255, 255, 255, 0.2);
-   } */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -162,7 +140,7 @@ ul {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-.dropdown-content .header {
+.dropdown-content{
     background: red;
     padding: 16px;
     color: white;
